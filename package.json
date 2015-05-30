@@ -1,0 +1,27 @@
+{
+    "name": "ping-pong",
+    "version": "1.0.0",
+    "description": "ping pong style server and client using zmq and middleware technology",
+    "keywords": ["middleware", "manager", "zmq", "server", "client"],
+    "homepage": "https://github.com/coolwust/pingpong.git",
+    "bugs": "https://github.com/coolwust/pingpong/issues",
+    "license": "MIT",
+    "author": {
+        "name": "coolwust",
+        "email": "coolwust@gmail.com"
+    },
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/coolwust/pingpong.git"
+    },
+    "dependencies": {
+        "zmq": ">=2.0"
+    },
+    "devDependencies": {
+        "mocha": ">=2.0"
+    },
+    "engines": {
+        "node": ">=0.10"
+    }
+}
